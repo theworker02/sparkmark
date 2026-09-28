@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/sparkmark",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Spark CSV/TSV mark tables for quick inspection and cleanup.",
+  "bin": {
+    "sparkmark": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/sparkmark.git"
+  },
+  "homepage": "https://theworker02.github.io/sparkmark/",
+  "keywords": [
+    "spark",
+    "mark",
+    "csv",
+    "cli",
+    "toolkit"
+  ]
+}
